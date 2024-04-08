@@ -1,74 +1,66 @@
 [toc]
-# 大模型全链路开源体系
+## 大模型全链路开源体系
 
-### 大语言模型的发展背景
+#### 大语言模型的发展背景
 
-![](1d36784fb6c1c9f28a9ffec3ee6a4e9.png)
+![](1d36784fb6c1c9f28a9ffec3ee6a4e9.jpg)
+#### 书生*浦语大模型开源历程
+![](1552d53ad48f48b2109e06b99329170.jpg)
 
-##### 书生·浦语2.0(lnternLM2)
 
-> 每个规格包含三个模型版本
+#### 书生·浦语2.0(lnternLM2)
+
+![](66c17be66125e521c716d10279b3e25.jpg)
+
 >
 > - InternLM2-Base
 > - InternLM2
 > - InternLM2-Chat
+#### 回归语言建模本质
+  ![](f610699a2cd19f6defbc1108ad2f981.jpg)
 
-![](resource/course1_3.png)
+#### 书生·浦语2.0(lnternLM2)主要亮点
 
-- 回归语言建模的本质
+  ![](7318d2eb3655a5086132ec273db3c6f.jpg)
 
-  ![](resource/course1_4.png)
+#### 创新应用
+  - 充满人文关怀的对话和富有想象力的创作，且工具调用能够极大拓展大语言模型的能力边界，使得大语言模型能够通过搜索、计算、代码解释器等获取新知以解释更复杂的问题。InternLM2进一步升级了模型的工具调用能力，能够稳定进行工具筛选和多步骤规划。
 
-- 亮点
+#### 模型到应用典型流程
 
-  ![](resource/course1_5.png)
-
-- 应用
-
-  - 贴心的AI助手
-  - 人文关怀的对话
-  - 富有想象力的创作
-
-- 模型到应用典型流程
-
-  ![](resource/course1_6.png)
+  ![](48cf6990047d1262f271ac96685c3d5.jpg)
 
 ### 书生·浦语大模型开源开放体系
 
-![](resource/course1_7.png)
+![](a29de89d9ec2fa41c3a190b13dcc96b.jpg)
 
-##### 开放高质量语料数据
+#### 开放高质量语料数据
 
 > 获取方式：[OpenDataLab](https://opendatalab.org.cn/)
 
-![](resource/course1_8.png)
+![](03dae8272688231fdf7d188327b80cd.jpg)
 
-##### 预训练
+#### 预训练特征
 
-![](resource/course1_9.png)
+![](3441227df53268cd12672af56a4e7fa.jpg)
 
-##### 微调
-
+#### 模型微调
+![](8933fd20911d6a7a4f237d2d13a2ba0.jpg)
 - 增量续训
   - 使用场景：让基座模型学习到一些新知识，如某个垂类领域知识
   - 训练数据：文章、书籍、代码等
 - 有监督微调
   - 使用场景：让模型学会理解各种指令进行对话，或者注入少量领域知识
   - 训练数据：高质量的对话、问答数据
+  - ![]a3aee6015116050bb66d0842d90be16.jpg)
 
-##### 部署
+- 进行部署
 
-![](resource/course1_10.png)
-
-##### 评测
+#### 评测
 
 > CompassHub:高质量评测基准社区开源开放，共建共享的大模型评测基准社区
 
-![](resource/course1_11.png)
-
 **OpenCompass2.0司南大模型评测体系正式发布**
-
-![](resource/course1_12.png)
 
 - 整体能力仍有较大提升空间
 
@@ -85,20 +77,14 @@
 - 模型主客观性能需综合参考
 
   > 大量开源模型和API模型的客观性能和主观性能存在较大的偏差，社区不仅仅需要夯实客观能力基础，更需要在偏好对齐和对话体验上下功夫。
-
-  ![](resource/course1_13.png)
-
-##### 部署
-
-![](resource/course1_14.png)
-
-![](resource/course1_15.png)
-
-##### 应用
+  
+![](24cb3c7ddcff25e1c45b723b55ae5d7.jpg)
+![](eb9db28abf2ff8e1792bba933590317.jpg)
+#### 应用
 
 - 轻量级智能体框架Lagent
 
-  ![](resource/course1_16.png)
+  ![](cc90c9443ced22521b5815d73591c51.jpg)
 
 - AgentLego工具箱
 
