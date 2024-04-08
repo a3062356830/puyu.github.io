@@ -3,15 +3,7 @@
 
 ### 大语言模型的发展背景
 
-![](resource/course1_1.png)
-
-- 通用大模型
-
-- 专用模型
-
-### 书生·浦语大模型开源历程
-
-![](resource/course1_1.png)
+![](1d36784fb6c1c9f28a9ffec3ee6a4e9.png)
 
 ##### 书生·浦语2.0(lnternLM2)
 
