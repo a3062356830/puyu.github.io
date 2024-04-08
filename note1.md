@@ -12,7 +12,7 @@
 
 ![](66c17be66125e521c716d10279b3e25.jpg)
 
->
+
 > - InternLM2-Base
 > - InternLM2
 > - InternLM2-Chat
