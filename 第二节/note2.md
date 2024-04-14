@@ -1,6 +1,7 @@
 [toc]
 # Demo实战的任务内容
 ![](第二节/图片/image.png)
+
 # 角色扮演SIG
 
 - 综合角度
@@ -28,7 +29,7 @@
 
 ### 部署自定义模型
 
-![](resource/course2_1.png)
+![](第二节/图片/image.png)
 
 # 运行Lagent智能体Demo
 
