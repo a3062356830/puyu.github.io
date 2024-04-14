@@ -1,6 +1,8 @@
 [toc]
 # Demo实战的任务内容
 ![image](https://github.com/a3062356830/puyu.github.io/assets/137973092/0b45dbfd-89fd-4ba4-8504-90735c40a956)
+#### 使用InternLM2-Chat-1.8B完成300字小故事
+![image](https://github.com/a3062356830/puyu.github.io/assets/137973092/a8645b80-85fb-42e5-a0bd-0bc30446d7f7)
 
 
 # 角色扮演SIG
