@@ -1,6 +1,7 @@
 [toc]
 # Demo实战的任务内容
-![](resource/image.png)
+![image](https://github.com/a3062356830/puyu.github.io/assets/137973092/0b45dbfd-89fd-4ba4-8504-90735c40a956)
+
 
 # 角色扮演SIG
 
