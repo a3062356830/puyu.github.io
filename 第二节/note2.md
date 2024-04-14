@@ -1,6 +1,6 @@
 [toc]
 # Demo实战的任务内容
-![](第二节/图片/image.png)
+![](resource/image.png)
 
 # 角色扮演SIG
 
