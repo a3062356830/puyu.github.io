@@ -1,4 +1,24 @@
-# OpenCompass 大模型评测实战
+# OpenCompass: 大模型评测实战
+
+### 为什么要研究大模型的评测？
+1. 对于全面了解大型语言模型的优势和限制至关重要
+2. 有助于指导和改进人类与大型语言模型之间的协同交互
+3. 可以帮助更好地规划大型语言模型未来的发展, 并尽可能避免潜在风险
+4. 通过了解不同语言模型之间的性能、适用性和安全性, 有助于模型选择
+
+### OpenCompass介绍
+大模型开源开放评测体系“司南”(OpenCompass2.0).\
+**基座模型**: 一般是经过海量文本数据以自监督学习方式进行训练获得的模型 (如OpenAI的GPT-4, Meta的LLaMA).\
+**对话模型**: 在基座模型的基础上, 经过指令微调或人类偏好对齐获得的模型 (如OpenAI的ChatGPT, 上海人工智能实验室的书生·浦语).
+
+**工具架构**\
+模型层、能力层、方法层、工具层
+
+**评测方法**\
+客观评测、主观评测
+
+**实战**\
+[快速开始](https://github.com/InternLM/Tutorial/blob/camp2/opencompass/readme.md#快速开始)
 
 ## 一、大模型评测概述
 研究大模型评测是因为大模型在许多应用中表现出巨大的潜力，同时也面临着诸多挑战。评测大模型的过程可以帮助我们更好地理解模型的性能，挖掘其各方面的能力表现与发现其优缺点，从而找到优化的方向推动大模型研究的进展。以下是研究大模型评测的几个主要原因：
@@ -30,6 +50,7 @@ pip install protobuf
 pip install -e .
 ```
 
+
 ### C、数据准备
 解压测试数据集并查找跟 internlm2-chat-1.8B 模型相关的评测保，参考命令：
 ```bash
@@ -41,8 +62,7 @@ unzip /share/temp/datasets/OpenCompassData-core-20231110.zip
 python tools/list_configs.py internlm2_chat_1_8b ceval
 ```
 
-通过上面的命令可以看到以下评测集：
-
+![image](https://github.com/a3062356830/puyu.github.io/assets/137973092/a1154489-7d65-42c5-a427-f28f802e40d2)
 ### D、开始评测
 基于 C-Eval 评测集开始评测模型，参考命令：
 ```bash
@@ -62,7 +82,8 @@ python run.py \
 --num-gpus 1 \
 --debug
 ```
-评测结束后结果会保存到 output 目录中，查看如下：
+
+![image](https://github.com/a3062356830/puyu.github.io/assets/137973092/b92ff294-8d10-4f43-bbba-7f8a5c3c349a)
 
 
 ## 三、自定义数据集
